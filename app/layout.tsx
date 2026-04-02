@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Inter, Playfair_Display, Dancing_Script } from "next/font/google";
+import { AuraInvitesSocial } from "@/components/aura-invites-social";
 import "./globals.css";
 
 const inter = Inter({
@@ -39,7 +40,7 @@ export default function RootLayout({
         <div className="relative flex min-h-screen flex-col">
           {/* Subtle watermark overlay - deterrent only */}
           <div className="pointer-events-none select-none fixed inset-0 z-0 flex items-center justify-center opacity-[0.04]">
-            <div className="font-calligraphy text-6xl md:text-8xl text-black whitespace-nowrap">
+            <div className="font-calligraphy text-6xl md:text-8xl text-champagne-200 whitespace-nowrap">
               Nabeen Azan &amp; Bisharat
             </div>
           </div>
@@ -55,6 +56,7 @@ export default function RootLayout({
               <p className="font-calligraphy text-2xl text-gradient md:text-3xl">
                 The Aura Invites
               </p>
+              <AuraInvitesSocial />
               <div className="h-px w-16 bg-gradient-to-r from-transparent via-champagne-500/40 to-transparent" />
             </div>
           </footer>

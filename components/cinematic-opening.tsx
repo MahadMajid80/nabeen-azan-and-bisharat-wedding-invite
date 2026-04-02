@@ -52,11 +52,11 @@ export const CinematicOpening = ({ onOpenInvitation }: CinematicOpeningProps) =>
         {!isOpening ? (
           <motion.div
             key="opening"
-            initial={{ opacity: 0 }}
+            initial={false}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
             transition={{ duration: 1.2, ease: [0.25, 0.1, 0.25, 1] }}
-            className="mx-auto max-w-4xl px-6 pt-16 text-center md:pt-20"
+            className="relative z-10 mx-auto max-w-4xl px-6 pt-16 text-center md:pt-20"
           >
             <AnimatePresence mode="wait">
               {currentStep >= 1 && (
@@ -98,9 +98,9 @@ export const CinematicOpening = ({ onOpenInvitation }: CinematicOpeningProps) =>
                   transition={{ duration: 1.4, ease: [0.16, 1, 0.3, 1] }}
                   className="mb-12 relative z-20"
                 >
-                  <h1 className="font-calligraphy text-5xl md:text-7xl lg:text-8xl text-black mb-8">
+                  <h1 className="font-calligraphy text-5xl md:text-7xl lg:text-8xl text-gradient mb-8">
                     {WEDDING_CONFIG.coupleNames.firstName}
-                    <span className="mx-4 text-black/50">&</span>
+                    <span className="mx-4 text-champagne-500/50">&</span>
                     {WEDDING_CONFIG.coupleNames.secondName}
                   </h1>
 

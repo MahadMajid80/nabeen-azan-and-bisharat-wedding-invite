@@ -69,7 +69,7 @@ export const GrandClosing = () => {
           initial={{ opacity: 0 }}
           animate={inView ? { opacity: 1 } : {}}
           transition={{ delay: 1, duration: 1 }}
-          className="mt-20 font-calligraphy text-2xl text-black"
+          className="mt-20 font-calligraphy text-2xl text-champagne-300/70"
         >
           {WEDDING_CONFIG.coupleNames.firstName} & {WEDDING_CONFIG.coupleNames.secondName}
         </motion.div>

@@ -40,10 +40,10 @@ export const LoadingScreen = ({ onFirstInteraction }: LoadingScreenProps) => {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.3, duration: 0.8 }}
-          className="font-calligraphy text-4xl text-black"
+          className="font-calligraphy text-4xl text-champagne-300"
         >
           {WEDDING_CONFIG.coupleNames.firstName[0]}
-          <span className="mx-2 text-black/50">&</span>
+          <span className="mx-2 text-champagne-500/50">&</span>
           {WEDDING_CONFIG.coupleNames.secondName[0]}
         </motion.div>
         

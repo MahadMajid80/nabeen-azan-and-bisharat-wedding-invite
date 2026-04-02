@@ -1,10 +1,17 @@
+/** Creator / vendor social links (footer). */
+export const AURA_INVITES_SOCIAL = {
+  whatsapp: "https://wa.me/message/XSCTDHR5PEG5N1",
+  instagram:
+    "https://www.instagram.com/theaurainvites?igsh=MWR2Z2V6YmtyejU0aw==",
+} as const;
+
 export const WEDDING_CONFIG = {
   coupleNames: {
     firstName: "Nabeen Azan",
     secondName: "Bisharat",
   },
-  /** Countdown target: 14 April 2026 (6:00 PM local) */
-  countdownDate: new Date("2026-04-14T18:00:00"),
+  /** Countdown target: 12 April 2026 (6:00 PM local) */
+  countdownDate: new Date("2026-04-12T18:00:00"),
   weddingDate: new Date("2024-12-15T18:00:00"),
   venue: {
     name: "La Grande Banquet",
@@ -18,7 +25,7 @@ export const WEDDING_CONFIG = {
   events: [
     {
       name: "Walima",
-      date: new Date("2026-04-14T21:00:00"),
+      date: new Date("2026-04-12T21:00:00"),
       time: "9:00 PM",
       description: "Dinner and celebration",
       venue: {
