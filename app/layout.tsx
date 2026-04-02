@@ -39,7 +39,7 @@ export default function RootLayout({
         <div className="relative flex min-h-screen flex-col">
           {/* Subtle watermark overlay - deterrent only */}
           <div className="pointer-events-none select-none fixed inset-0 z-0 flex items-center justify-center opacity-[0.04]">
-            <div className="font-calligraphy text-6xl md:text-8xl text-champagne-200 whitespace-nowrap">
+            <div className="font-calligraphy text-6xl md:text-8xl text-black whitespace-nowrap">
               Nabeen Azan &amp; Bisharat
             </div>
           </div>

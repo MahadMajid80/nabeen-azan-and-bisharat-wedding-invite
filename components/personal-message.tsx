@@ -68,7 +68,7 @@ export const PersonalMessage = () => {
           >
             With Love,
             <br />
-            <span className="text-gradient">
+            <span className="text-black">
               {WEDDING_CONFIG.coupleNames.firstName} & {WEDDING_CONFIG.coupleNames.secondName}
             </span>
           </motion.div>

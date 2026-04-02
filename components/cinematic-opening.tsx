@@ -98,9 +98,9 @@ export const CinematicOpening = ({ onOpenInvitation }: CinematicOpeningProps) =>
                   transition={{ duration: 1.4, ease: [0.16, 1, 0.3, 1] }}
                   className="mb-12 relative z-20"
                 >
-                  <h1 className="font-calligraphy text-5xl md:text-7xl lg:text-8xl text-gradient mb-8">
+                  <h1 className="font-calligraphy text-5xl md:text-7xl lg:text-8xl text-black mb-8">
                     {WEDDING_CONFIG.coupleNames.firstName}
-                    <span className="mx-4 text-champagne-500/50">&</span>
+                    <span className="mx-4 text-black/50">&</span>
                     {WEDDING_CONFIG.coupleNames.secondName}
                   </h1>
 
